@@ -25,5 +25,5 @@ jobs:
           python_ver: '3.12'
           spec: 'app.py'
           requirements: 'requirements.txt'
-          upload_exe_with_name: 'OLED_Refresher'
+          upload_exe_with_name: 'OLED_Refresher_${{ matrix.os }}'
           options: --onefile, --name "OLED Refresher", --windowed, 
